@@ -1,1 +1,1 @@
-shai-brides-v3 with tailwind
+shai-brides-v3 with tailwind + eventually typescript
