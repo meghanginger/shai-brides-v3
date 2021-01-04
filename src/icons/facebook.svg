@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="49px" viewBox="0 0 51 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.3%" y="-28.5%" width="154.5%" height="159.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="facebook" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M37.5546875,0 L6.4453125,0 C2.89166264,0 0,2.76593818 0,6.16508152 L0,35.921875 C0,39.3210183 2.89166264,42.0869565 6.4453125,42.0869565 L19.421875,42.0869565 L19.421875,27.2085598 L14.265625,27.2085598 L14.265625,19.810462 L19.421875,19.810462 L19.421875,14.7961957 C19.421875,10.7166456 22.8912659,7.39809783 27.15625,7.39809783 L34.9765625,7.39809783 L34.9765625,14.7961957 L27.15625,14.7961957 L27.15625,19.810462 L34.9765625,19.810462 L33.6875,27.2085598 L27.15625,27.2085598 L27.15625,42.0869565 L37.5546875,42.0869565 C41.1083374,42.0869565 44,39.3210183 44,35.921875 L44,6.16508152 C44,2.76593818 41.1083374,0 37.5546875,0 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

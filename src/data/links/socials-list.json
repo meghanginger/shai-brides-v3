@@ -1,0 +1,27 @@
+[
+    {
+        "label": "Insta",
+        "location": "https://ik.imagekit.io/shaibrides/icons/insta_2Qinxm-HUJ.svg",
+        "href": "https://www.instagram.com/shaibrides"
+    },
+    {
+        "label": "Youtube",
+        "location": "https://ik.imagekit.io/shaibrides/icons/youtube_uQnMtzZkLZ.svg",
+        "href": "https://www.youtube.com/channel/UClwVvS4k9O3IZiaZJpUxWig/?fbclid=IwAR0Nc6lvsbzE2Aa1ItDUAgyuyrFBmWK2otsAXINPXa-xJ8aBohywlIJPeTY"
+    },
+    {
+        "label": "Spotify",
+        "location": "https://ik.imagekit.io/shaibrides/icons/spotify_TpyfSfU1JB.svg",
+        "href": "https://open.spotify.com/artist/4ubmraLEMNqkNnWkvnq0a5?si=3qRrLeXzTMuBGSVmSG4jHg"
+    },
+    {
+        "label": "Mail",
+        "location": "https://ik.imagekit.io/shaibrides/icons/mail_B2ak5meUNk.svg",
+        "href": "mailto:harry@sonicgunconcerts.co.uk"
+    },
+    {
+        "label": "Facebook",
+        "location": "https://ik.imagekit.io/shaibrides/icons/facebook_zotJB9q7m.svg",
+        "href": "https://www.facebook.com/shaibrides"
+    }
+]

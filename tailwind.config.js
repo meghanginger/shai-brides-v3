@@ -5,7 +5,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Manrope', 'sans-serif'],
+      sans: ['Libre Franklin', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
     },
     screens: {
@@ -16,12 +16,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        gray: colors.coolGray,
-        blue: colors.lightBlue,
-        red: colors.rose,
-        pink: colors.fuchsia,
-        black: colors.black,
-        beige: "#d3ccbc"
+        scarlet: "#83001e",
+        "light-blue": "#a3e4f3",
+        "dark-blue": "#202C39",
+        black: "black",
       },
       spacing: {
         '128': '32rem',

@@ -1,0 +1,42 @@
+[
+    {
+        "day": "19",
+        "month": "DEC",
+        "venue": "Colours Hoxton",
+        "city": "London",
+        "desc": "SOLD OUT - HEADLINE SHOW",
+        "ticketLink": "https://www.ticketweb.uk/event/shai-brides-colours-hoxton-tickets/10780735?REFERRAL_ID=UKSPO"
+    },
+    {
+        "day": "09",
+        "month": "JUN",
+        "venue": "Oporto",
+        "city": "Leeds",
+        "desc": "HEADLINE SHOW",
+        "ticketLink": ""
+    },
+    {
+        "day": "10",
+        "month": "JUN",
+        "venue": "Hare & Hounds",
+        "city": "Birmingham",
+        "desc": "HEADLINE SHOW",
+        "ticketLink": ""
+    },
+    {
+        "day": "30",
+        "month": "JAN",
+        "venue": "Waiting Room",
+        "city": "London",
+        "desc": "HEADLINE SHOW",
+        "ticketLink": ""
+    },
+    {
+        "day": "13",
+        "month": "JUN",
+        "venue": "Hope & Ruin",
+        "city": "Brighton",
+        "desc": "HEADLINE SHOW",
+        "ticketLink": ""
+    }
+]

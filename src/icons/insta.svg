@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="49px" viewBox="0 0 51 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-26.1%" y="-27.3%" width="152.2%" height="154.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M34.8106347,5.94594595 C32.7539215,5.94594595 31.0810811,7.54639102 31.0810811,9.51334509 C31.0810811,11.480636 32.7539215,13.0810811 34.8106347,13.0810811 C36.867348,13.0810811 38.5405405,11.480636 38.5405405,9.51334509 C38.5405405,7.54605418 36.867348,5.94594595 34.8106347,5.94594595 Z M34.8106347,10.4922744 C34.2464473,10.4922744 33.7872086,10.0530026 33.7872086,9.51334509 C33.7872086,8.97335066 34.2464473,8.5344157 34.8106347,8.5344157 C35.3751744,8.5344157 35.8344131,8.97335066 35.8344131,9.51334509 C35.8344131,10.0530026 35.3751744,10.4922744 34.8106347,10.4922744 Z" id="path-2"></path>
+        <filter x="-26.8%" y="-28.0%" width="153.6%" height="156.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="1.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="instagram" filter="url(#filter-1)" transform="translate(3.000000, 1.000000)" fill-rule="nonzero">
+            <g id="Group-2">
+                <path d="M33.5482178,0 L12.4517822,0 C5.58575439,0 0,5.34289551 0,11.9104004 L0,32.0899353 C0,38.6571045 5.58575439,44 12.4517822,44 L33.5485687,44 C40.4142456,44 46,38.6571045 46,32.0899353 L46,11.9104004 C46,5.34289551 40.4142456,0 33.5482178,0 Z M43.3032837,32.0899353 C43.3032837,37.2347717 38.9272614,41.4205322 33.5482178,41.4205322 L12.4517822,41.4205322 C7.07273862,41.4205322 2.69671631,37.2347717 2.69671631,32.0899353 L2.69671631,11.9104004 C2.69671631,6.76522825 7.07273862,2.57946777 12.4517822,2.57946777 L33.5485687,2.57946777 C38.9272614,2.57946777 43.3032837,6.76522825 43.3032837,11.9104004 L43.3032837,32.0899353 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M23.6216216,10.7027027 C16.7662482,10.7027027 11.1891892,16.0372809 11.1891892,22.5945946 C11.1891892,29.1519083 16.7662482,34.4864865 23.6216216,34.4864865 C30.476995,34.4864865 36.0540541,29.1519083 36.0540541,22.5945946 C36.0540541,16.0372809 30.476995,10.7027027 23.6216216,10.7027027 Z M23.6216216,31.9368256 C18.2363966,31.9368256 13.8547438,27.7460112 13.8547438,22.5945946 C13.8547438,17.4435098 18.2363966,13.2523636 23.6216216,13.2523636 C29.0071936,13.2523636 33.3884995,17.4435098 33.3884995,22.5945946 C33.3884995,27.7460112 29.0071936,31.9368256 23.6216216,31.9368256 Z" id="Shape" fill="#FFFFFF"></path>
+                <g id="Shape">
+                    <use fill="#FFFFFF" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

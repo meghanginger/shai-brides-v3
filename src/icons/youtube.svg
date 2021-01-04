@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="49px" viewBox="0 0 63 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.3 (81716) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-22.6%" y="-27.3%" width="145.3%" height="154.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="2" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="youtube" filter="url(#filter-1)" transform="translate(5.000000, 1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M50.9341968,3.77708717 C49.0210677,1.09432267 45.4888742,0 38.743171,0 L14.2563161,0 C7.35622903,0 3.76419677,1.16491112 1.85824839,4.02112153 C0,6.80593676 0,10.9091426 0,16.5880843 L0,27.4121174 C0,38.4140334 2.2048,44 14.2563161,44 L38.7433419,44 C44.5931742,44 47.8347226,43.03435 49.9318129,40.6668133 C52.0824161,38.238974 53,34.2749283 53,27.4121174 L53,16.5880843 C53,10.5991584 52.8562161,6.47175087 50.9341968,3.77708717 Z M33.4740007,23.7791979 L22.5187291,30.6878251 C22.2738113,30.8422942 22.005985,30.9189189 21.7384957,30.9189189 C21.4356331,30.9189189 21.1334443,30.8205465 20.8657865,30.6250213 C20.3618015,30.2565313 20.0540541,29.5973957 20.0540541,28.8864317 L20.0540541,15.1134854 C20.0540541,14.4037409 20.3609593,13.745215 20.8639336,13.3765219 C21.3670763,13.0078287 21.9928464,12.9826258 22.5148549,13.3098563 L33.4701265,20.1739721 C34.0275082,20.5231534 34.3775352,21.217451 34.3783784,21.974959 C34.3790512,22.7330767 34.0305402,23.4283906 33.4740007,23.7791979 Z" id="XMLID_823_"></path>
+        </g>
+    </g>
+</svg>
