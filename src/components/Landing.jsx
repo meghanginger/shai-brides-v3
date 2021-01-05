@@ -8,31 +8,28 @@ const bgImage = isMobile ? 'Mobile' : 'Desktop';
 
 const Landing = ({ data }) => (
   <>
-    <div className="indexContainer">
+    <div className=" z-1">
       <Img
+        className="h-screen w-auto"
         fluid={isMobile
           ? data.homeMobile.childImageSharp.fluid
           : data.homeDesktop.childImageSharp.fluid}
-        alt="Shai brides in forest"
-        className="homeImageMobile"
+        alt="Band in room with party lights"
       />
     </div>
-    <div className={`logoHomeDiv${bgImage}`}>
+    <div className="absolute left-1 top-2 w-3/6 md:w-2/6">
       <img src={imageURLs.Logos.white} className={`logoHome${bgImage}`} alt="Shai Brides Logo" />
     </div>
-    <div className={`arrowHomeDiv${bgImage}`}>
-      <a href="#live">
-        <img src={imageURLs.Icons['Down-arrow']} className={`downIcon${bgImage}`} alt="Enter website" />
+    <div className="absolute w-screen h-screen top-0 flexColCenter justify-end">
+      <img src={imageURLs.Vits.logo} className="w-9/12 md:w-5/12 p-1" />
+      <div className="text-xl text-white p-1 text-shadow">OUT NOW</div>
+      <a className="btnMain" href="https://open.spotify.com/album/7uZezov6ExXtiUAUuiFoFm?si=fmduZqHfR9irAMBjabnSBQ">
+        LISTEN ON SPOTIFY
+      </a>
+      <a href="#live" className="w-2/12 md:w-16 p-2 pt-8">
+        <img src={imageURLs.Icons['Down-arrow']} alt="Enter website" />
       </a>
     </div>
-    <div className="honeydewLabel">
-        <img src={imageURLs.Vits.logo} className="vitsLogoHome" />
-        <div className="vitsText vitsHomeText shadow overridePadding">OUT NOW</div>
-        <a className="vitsLink overrideMargin" href="https://open.spotify.com/album/7uZezov6ExXtiUAUuiFoFm?si=fmduZqHfR9irAMBjabnSBQ">
-          LISTEN ON SPOTIFY
-        </a>
-    </div>
-    
   </>
 );
 

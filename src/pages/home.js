@@ -8,67 +8,34 @@ import Landing from "../components/Landing";
 const home = ({ data }) => (
   <Layout>
     <SEO title="SHAI BRIDES" />
-    <h1 className="visuallyHidden">
+    <h1 className="fixed">
       Shai Brides
     </h1>
     <Landing data={data} />
-    <ScrollAnchor linkId="live" />
-    <Live />
-    <ScrollAnchor linkId="about-the-band" />
   </Layout>
 )
 
+/*
+<ScrollAnchor linkId="live" />
+    <Live />
+    <ScrollAnchor linkId="about-the-band" />
+*/
 export const query = graphql`
   query {
-    homeDesktop: file(relativePath: { eq: "vits/vitsDesktop.jpeg" }) {
+    homeDesktop: file(relativePath: { eq: "vitsDesktop.jpeg" }) {
     childImageSharp {
         fluid(maxWidth: 1240) {
           ...GatsbyImageSharpFluid
         }
       }
     }
-    homeMobile: file(relativePath: { eq: "vits/vitsMobile.jpeg" }) {
+    homeMobile: file(relativePath: { eq: "vitsMobile.jpeg" }) {
       childImageSharp {
           fluid(maxWidth: 800) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-    beachDesktop: file(relativePath: { eq: "beachDesktop.jpg" }) {
-      childImageSharp {
-          fluid(maxWidth: 1240) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    honeydewBg: file(relativePath: { eq: "honeydewBg.jpg" }) {
-      childImageSharp {
-          fluid(maxWidth: 800) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-      honeydewDesktop: file(relativePath: { eq: "honeydewDesktopReleased.jpg" }) {
-        childImageSharp {
-            fluid(maxWidth: 1240) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-      honeydewMobile: file(relativePath: { eq: "honeydewMobileReleased.jpg" }) {
-        childImageSharp {
-            fluid(maxWidth: 1240) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        bioPhoto: file(relativePath: { eq: "vits/robotBand.jpg" }) {
-          childImageSharp {
-              fluid(maxWidth: 1240) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
   }
  `
 export default home;

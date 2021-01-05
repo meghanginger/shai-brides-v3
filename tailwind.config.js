@@ -7,6 +7,7 @@ module.exports = {
     fontFamily: {
       sans: ['Libre Franklin', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      dramatic: ['Orbitron', 'sans-serif']
     },
     screens: {
       sm: '480px',
@@ -20,6 +21,7 @@ module.exports = {
         "light-blue": "#a3e4f3",
         "dark-blue": "#202C39",
         black: "black",
+        "cool-blue": "#7da3a3"
       },
       spacing: {
         '128': '32rem',
