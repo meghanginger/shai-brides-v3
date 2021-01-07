@@ -4,12 +4,12 @@ import liveDates from '../data/liveList';
 const LiveList = () => (
     <div className="bioText">
         {liveDates.map(date => (
-        <a className="row liveDiv is-white" href={date.ticketLink} >
-            <div className="liveDate col-xs-4 col-lg-5">
+        <a className="grid grid-cols-12" href={date.ticketLink} >
+            <div className="col-span-4 md:col-span-5">
                 <h3 className="liveDateText">{date.day}</h3>
                 <h4>{date.month}</h4>
             </div>
-            <div className="liveInfo col-xs-8 col-lg-7">
+            <div className="liveInfo col-span-8 md:col-span-7">
                 <div className="div-ception">
                     <h4>{date.venue}, {date.desc}</h4>
                     <h3>{date.city}</h3>

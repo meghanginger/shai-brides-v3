@@ -21,7 +21,9 @@ module.exports = {
         "light-blue": "#a3e4f3",
         "dark-blue": "#202C39",
         black: "black",
-        "cool-blue": "#7da3a3"
+        "cool-blue": "#7da3a3",
+        "vits-blue": "rgb(10,196,188))",
+        "vits-pink": "rgb(234, 050, 154))"
       },
       spacing: {
         '128': '32rem',

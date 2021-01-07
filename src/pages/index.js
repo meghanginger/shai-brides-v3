@@ -14,7 +14,7 @@ const index = ({ data }) => (
         <div className="vitsText honeydew-dark-blue alignCenter text-3xl text-dark-blue italic pb-4">OUT NOW</div>
         {
           links.map(link => (
-            <a className="btnMain uppercase w-5/6 md:w-2/6" href="link.link">
+            <a className="btnMain uppercase w-5/6 md:w-2/6" href={link.link}>
           {link.label}
         </a>
           ))
