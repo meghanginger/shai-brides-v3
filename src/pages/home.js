@@ -9,7 +9,7 @@ import Bio from "../components/Bio";
 const home = ({ data }) => (
   <Layout>
     <SEO title="SHAI BRIDES" />
-    <h1 className="fixed">
+    <h1 className="fixed text-transparent">
       Shai Brides
     </h1>
     <Landing data={data} />

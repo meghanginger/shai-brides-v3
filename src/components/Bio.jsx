@@ -11,19 +11,20 @@ const Bio = ({ data }) => {
       alt="Shai brides in pink and blue lights"
       className="bioImageMobile"
     />
-    <div className="divShadow">
-      <h2 className="joieHeader vits-nice-blue-bg is-white">ABOUT THE BAND</h2>
-      <div className="bioText vits-nice-blue-bg is-white container-fluid">
+    <div className="bg-vits-purple flexColCenter text-white text-shadow">
+      <div className="container py-4">
+        <h2 className="is-white text-2xl md:text-5xl pt-8 pb-6 px-2 font-bold font-dramatic">ABOUT THE BAND</h2>
         {BioText.map((para) => (
-          <p className="bioPara">
+          <p className="p-2">
             {para.Text}
           </p>
         ))}
-        <p className="bioPara">
+        <p className="p-2">
           For booking enquiries, please <a href="mailto:harry@sonicgunconcerts.co.uk">contact Harry Young</a> (management).
         </p>
       </div>
     </div>
+    
   </>
 );
 }

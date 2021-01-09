@@ -3,13 +3,13 @@ import { Link } from 'gatsby';
 import PropTypes from 'prop-types';
 import imageURLs from '../data/content-cdn';
 
-const Footer = ({ bgColour, honeydew }) => (
-  <div className={`${honeydew ? `honeydew-${bgColour}-bg` : `is-${bgColour}-bg`} footerBg`}>
-    <div className="anotherFooterFlex">
-      <Link to="/">
-        <img src={imageURLs.Logos.white} className="footerLogo" alt="Jump to start of website" />
+const Footer = () => (
+  <div className="bg-dark-blue text-white flexColCenter p-2">
+    <div className="flexColCenter md:flex-row md:justify-center py-2 md:items-end ">
+      <Link to="/" className="w-7/12 md:w-3/12 fit-content flexColCenter mb-2 md:m-0">
+        <img src={imageURLs.Logos.white} alt="Jump to start of website" />
       </Link>
-      <div className="footerIconDiv">
+      <div className="flex -mb-1">
         <a href="https://www.instagram.com/shaibrides">
           <img src={require("../icons/insta.svg")} alt="Instagram" />
         </a>
@@ -27,7 +27,7 @@ const Footer = ({ bgColour, honeydew }) => (
         </a>
       </div>
     </div>
-    <span className="smallPrint">
+    <span className="text-center text-xs">
       © Shai Brides 2020. All photos taken by Tom Baines and <a href="https://sld.codes">Sam Larsen Disney</a>.
     </span>
   </div>

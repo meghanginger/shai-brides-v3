@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import CookieConsent from "./CookieConsent";
 import Menu from '../../data/links/menu-list.json';
+import Footer from "../footer";
 
 const Layout = ({ children }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -75,6 +76,7 @@ const Layout = ({ children }) => {
       <body>
         <CookieConsent />
         <main>{children}</main>
+        <Footer />
       </body>
     </>
   );
