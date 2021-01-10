@@ -24,16 +24,10 @@ const Bio = ({ data }) => {
         </p>
       </div>
     </div>
-    
   </>
 );
 }
 
-Bio.propTypes = {
-  data: PropTypes.shape({
-    beachDesktop: PropTypes.string.isRequired,
-  }).isRequired,
-}
 export default Bio;
 
 /*
