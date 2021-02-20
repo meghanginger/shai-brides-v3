@@ -9,7 +9,7 @@ const Merch = ({ data }) => (
       alt="Shai brides in pink and blue lights"
     />
     <div className="bg-vits-pink flexColCenter text-white text-shadow pb-4">
-      <div className="container lg:px-16">
+      <div className="container lg:px-16 -mt-2">
         <h2 className="is-white text-2xl md:text-5xl pt-8 pb-2 md:pb-6 px-2 font-bold font-dramatic">MERCH</h2>
         <div className="flex p-2 flex-col md:flex-row">
           <div className="md:m-4 my-4 w-full md:w-6/12">
