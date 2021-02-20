@@ -14,6 +14,17 @@ module.exports = {
       },
       `gatsby-transformer-sharp`,
       `gatsby-plugin-sharp`,
-      { resolve: `gatsby-source-filesystem`, options: { path: `./src/images/` } },
+      { 
+        resolve: `gatsby-source-filesystem`, 
+        options: {
+          path: `./src/images/` 
+        } 
+      },
+      {
+        resolve: `gatsby-plugin-manifest`,
+        options: {
+          icon: `src/images/favicon.png`
+        }
+      },
   ],
 }

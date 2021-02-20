@@ -34,14 +34,14 @@ const Layout = ({ children }) => {
               </button>
               {Menu.map((header) => (
                 <a href={header.link} onClick={() => { setShowMenu(false) }}>
-                  <h2 className="font-dramatic text-2xl md:text-7xl text-white text-center p-2 hover:text-cool-blue hover:duration-300">{header.label}</h2>
+                  <h2 className="font-dramatic text-3xl md:text-7xl text-white text-center p-2 hover:text-cool-blue hover:duration-300">{header.label}</h2>
                 </a>
               ))}
               <div className="flex pt-4">
                 <a href="https://www.instagram.com/shaibrides" >
                   <img src={require("../../icons/insta.svg")} alt="Instagram" className="socialIcon h-10 md:h-14 "/>
                 </a>
-                <a href="https://www.youtube.com/channel/UCUfSV1sIHcMBEou0r5JcpnQ">
+                <a href="https://m.youtube.com/channel/UClwVvS4k9O3IZiaZJpUxWig">
                   <img src={require("../../icons/youtube.svg")} alt="Youtube" className="socialIcon h-10 md:h-14"/>
                 </a>
                 <a href="https://open.spotify.com/artist/4ubmraLEMNqkNnWkvnq0a5?si=3qRrLeXzTMuBGSVmSG4jHg" >

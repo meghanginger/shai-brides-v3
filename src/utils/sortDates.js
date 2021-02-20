@@ -27,11 +27,9 @@ export const sortDates = ({ shows }) => {
 export const getFutureShows = (shows) => {
   let today = new Date();
   let filteredShows;
-  console.log(today);
+  
   filteredShows = shows.filter(show => {
     let showDate = new Date(show.year, monthsMap[show.month], (show.day + 1));
-    console.log(showDate);
-    console.log(`Comparison: ${today - showDate}`);
     return (today < showDate);
   });
 

@@ -1,0 +1,32 @@
+[
+  {
+    "itemName": "shirtEcru",
+    "itemDesc": "shirtEcru",
+    "itemPrice": "£15 + postage",
+    "itemPhotos": [
+      {
+        "imgLink": "data.frontShirtEcru.childImageSharp.fluid",
+        "alt": "Ecru coloured shirt reading 'shai brides' with 4 icons"
+      },
+      {
+        "imgLink": "data.frontShirtEcru.childImageSharp.fluid",
+        "alt": "Back of Ecru coloured shirt reading 'vitamins' with an underwater head"
+      }
+    ]
+  },
+  {
+    "itemName": "shirtEcru",
+    "itemDesc": "shirtEcru",
+    "itemPrice": "£15 + postage",
+    "itemPhotos": [
+      {
+        "imgLink": "data.frontShirtEcru.childImageSharp.fluid",
+        "alt": "Light blue coloured shirt reading 'shai brides' with 4 icons"
+      },
+      {
+        "imgLink": "data.frontShirtEcru.childImageSharp.fluid",
+        "alt": "Back of blue coloured shirt reading 'vitamins' with an underwater head"
+      }
+    ]
+  }
+]

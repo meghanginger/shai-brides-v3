@@ -9,8 +9,8 @@ const linksPage = ({ data }) => (
     <SEO title="LINKS | SHAI BRIDES" />
     <div className="mainBg flex flex-col items-center pt-4">
       <div className="flex flex-col items-center">
-        <a href="/home" className="flex justify-center">
-          <img className="w-3/5 md:w-4/12 object-center m-4 svgDarkBlue"src={content.Logos.white} alt="" />
+        <a href="/home" className="flexColCenter">
+          <img className="w-3/5 md:w-4/12 h-auto m-4 svgDarkBlue"src={content.Logos.white} alt="" />
         </a>
         <div className="flex mb-8">
           {icons.map(icon => (

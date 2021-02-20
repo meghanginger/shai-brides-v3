@@ -5,6 +5,7 @@ import Layout from "../components/general/Layout";
 import ScrollAnchor from "../components/general/ScrollAnchor";
 import Landing from "../components/Landing";
 import Bio from "../components/Bio";
+import Merch from "../components/Merch";
 
 const home = ({ data }) => (
   <Layout>
@@ -17,6 +18,8 @@ const home = ({ data }) => (
     <Live />
     <ScrollAnchor linkId="about-the-band" />
     <Bio data={data}/>
+    <ScrollAnchor linkId="merch" />
+    <Merch data={data}/>
   </Layout>
 )
 
@@ -48,7 +51,41 @@ export const query = graphql`
         }
       }
     }
+  frontShirtEcru: file(relativePath: { eq: "tshirts/front-ecru.png" }) {
+    childImageSharp {
+        fluid(maxWidth: 1240) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    } 
+  frontShirtBlue: file(relativePath: { eq: "tshirts/front-blue.png" }) {
+    childImageSharp {
+        fluid(maxWidth: 1240) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  backShirtEcru: file(relativePath: { eq: "tshirts/back-ecru.png" }) {
+    childImageSharp {
+        fluid(maxWidth: 1240) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  backShirtBlue: file(relativePath: { eq: "tshirts/back-blue.png" }) {
+    childImageSharp {
+        fluid(maxWidth: 1240) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  merchPhoto: file(relativePath: { eq: "globeBand.jpg" }) {
+    childImageSharp {
+        fluid(maxWidth: 1240) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
   }
-  
  `
 export default home;
